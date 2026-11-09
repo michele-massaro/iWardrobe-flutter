@@ -32,7 +32,7 @@ flutter build apk && flutter build macos && flutter build ios --no-codesign
 
 | # | Task | Phase | Depends on | Status |
 |---|---|---|---|---|
-| 001 | [Project scaffolding & tooling](001-project-scaffolding-and-tooling.md) | 1 — Foundation | — | ☐ |
+| 001 | [Project scaffolding & tooling](001-project-scaffolding-and-tooling.md) | 1 — Foundation | — | ☑ a463128 |
 | 002 | [Domain models, enums, filters, exceptions](002-domain-models-and-json.md) | 1 — Foundation | — | ☐ |
 | 003 | [Local database (drift) & DatabaseService](003-local-database-drift.md) | 1 — Foundation | 001, 002 | ☐ |
 | 004 | [ImageFileService & image import pipeline](004-image-file-service.md) | 2 — Data layer | 002, 003 | ☐ |
