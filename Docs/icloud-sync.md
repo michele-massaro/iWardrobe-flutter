@@ -5,7 +5,7 @@
 | **Version** | 1.0 (v1 / MVP) |
 | **Date** | 9 November 2026 |
 | **Status** | Reference for implementation |
-| **Companion documents** | [Documentation index](README.md) · [Functional specification](functional-specification.md) · [Architecture](architecture.md) · [Data model & local database](data-model-and-database.md) · [Responsive design](responsive-design.md) · [UI & design language](ui-design.md) |
+| **Companion documents** | [Documentation index](README.md) · [Functional specification](functional-specification.md) · [Architecture](architecture.md) · [Data model & local database](data-model-and-database.md) · [Responsive design](responsive-design.md) · [UI & design language](ui-design.md) · [Task index](Tasks/README.md) |
 
 ## 1. Purpose & scope
 

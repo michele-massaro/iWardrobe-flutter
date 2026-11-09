@@ -5,7 +5,7 @@
 | **Version** | 1.0 (v1 / MVP) |
 | **Date** | 8 November 2026 |
 | **Status** | Approved as the reference for design and implementation |
-| **Companion documents** | [Documentation index](README.md) · [Architecture](architecture.md) · [Data model & local database](data-model-and-database.md) · [iCloud sync](icloud-sync.md) · [Responsive design](responsive-design.md) · [UI & design language](ui-design.md) |
+| **Companion documents** | [Documentation index](README.md) · [Architecture](architecture.md) · [Data model & local database](data-model-and-database.md) · [iCloud sync](icloud-sync.md) · [Responsive design](responsive-design.md) · [UI & design language](ui-design.md) · [Task index](Tasks/README.md) |
 
 ## 1. Overview & purpose
 

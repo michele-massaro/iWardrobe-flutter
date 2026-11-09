@@ -4,7 +4,7 @@
 
 The app is **offline-first and account-free**: everything lives inside the app, with no remote APIs, no server, and no telemetry.
 
-> **Status:** This repository currently contains the complete **v1 (MVP) documentation set** in [`Docs/`](Docs/). The implementation is a future task; for now the project is in the design/documentation phase. The docs are the reference for design, implementation, and acceptance testing.
+> **Status:** This repository currently contains the complete **v1 (MVP) documentation set** in [`Docs/`](Docs/), plus the implementation plan in [`Docs/Tasks/`](Docs/Tasks/) — 30 user-story-sized tasks, each with an objective, full specification, and definition of done. The implementation is a future task; for now the project is in the design/documentation phase. The docs are the reference for design, implementation, and acceptance testing.
 
 ---
 
@@ -67,6 +67,7 @@ The full documentation set lives in [`Docs/`](Docs/). Each document is versioned
 | 4 | [iCloud sync](Docs/icloud-sync.md) | Bidirectional sync protocol with `icloud_storage_sync` (Apple only): container layout, push/pull pipeline, conflict resolution, tombstones, offline behavior, and testing. |
 | 5 | [Responsive design](Docs/responsive-design.md) | Breakpoints (compact / medium / expanded) and adaptive layout rules based on window width, not device type. |
 | 6 | [UI & design language](Docs/ui-design.md) | The cozy visual language: palette, typography, core components, iconography, motion, dark mode, accessibility, and exact empty/error state copy. |
+| 7 | [Task index](Docs/Tasks/README.md) | The implementation plan: 30 user-story-sized tasks with objective, full spec, and definition of done (build + test constraints). |
 
 **Suggested reading order:** start with the [Functional specification](Docs/functional-specification.md) (it defines the product and the stable identifiers every other document references), then [Architecture](Docs/architecture.md), [Data model & local database](Docs/data-model-and-database.md), [iCloud sync](Docs/icloud-sync.md), and finally [Responsive design](Docs/responsive-design.md) and [UI & design language](Docs/ui-design.md). The [documentation index](Docs/README.md) has the same map.
 
@@ -75,6 +76,7 @@ The full documentation set lives in [`Docs/`](Docs/). Each document is versioned
 ```text
 iWardrobe-flutter/
 ├── README.md        # this file — short project recap
+├── instructions.md  # agent alignment rules for all iterations
 ├── Docs/            # complete v1 documentation set
 │   ├── README.md                    # documentation index
 │   ├── functional-specification.md
@@ -82,7 +84,8 @@ iWardrobe-flutter/
 │   ├── data-model-and-database.md
 │   ├── icloud-sync.md
 │   ├── responsive-design.md
-│   └── ui-design.md
+│   ├── ui-design.md
+│   └── Tasks/                       # implementation plan (index + 30 task files)
 └── .agents/         # agent/tooling configuration
 ```
 
